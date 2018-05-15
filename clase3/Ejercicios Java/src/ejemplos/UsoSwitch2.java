@@ -4,6 +4,7 @@
  * and open the template in the editor.
  */
 package ejemplos;
+import java.util.Scanner;
 
 /**
  *
@@ -16,6 +17,12 @@ public class UsoSwitch2 {
      */
     public static void main(String[] args) {
         // TODO code application logic here
+        
+        int numero=0;
+        Scanner leer=new Scanner(System.in);
+        System.out.println("Ingrese numero");
+        numero=leer.nextInt();
+        
 
         int contador = 5;
         
